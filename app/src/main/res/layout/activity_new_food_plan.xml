@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        tools:context=".ui.foodplan.NewFoodPlanActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="447dp"
+            android:padding="8dp">
+
+        <EditText
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextFoodPlanName"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="6dp" />
+
+        <EditText
+                android:layout_width="374dp"
+                android:layout_height="234dp"
+                android:inputType="textMultiLine"
+                android:gravity="start|top"
+                android:ems="10"
+                android:id="@+id/editTextFoodPlanDesc"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginTop="53dp"
+                android:layout_below="@+id/editTextFoodPlanName" />
+
+        <TextView
+                android:text="@string/activity_new_food_plan_description"
+                android:layout_width="161dp"
+                android:layout_height="37dp"
+                android:id="@+id/textView2"
+                android:layout_marginEnd="217dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textView4" />
+
+        <TextView
+                android:text="@string/activity_new_food_plan_name"
+                android:layout_width="79dp"
+                android:layout_height="36dp"
+                android:id="@+id/textView4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="183dp"
+                android:layout_height="50dp"
+                android:id="@+id/activity_new_food_plan_add_new"
+                android:layout_marginBottom="40dp"
+                android:shadowColor="#FFFFFF"
+                android:text="@string/add_new_food_plan"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="114dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="114dp"
+                android:layout_marginTop="17dp"
+                android:layout_below="@+id/editTextFoodPlanDesc" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

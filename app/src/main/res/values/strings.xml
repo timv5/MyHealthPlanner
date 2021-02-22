@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyHealthPlanner</string>
+    <string name="title_profile">My Profile</string>
+
+    <!-- Home fragment -->
+    <string name="title_home">Home</string>
+    <string name="text_welcome_view">Welcome to my Health Planner App</string>
+
+    <!--  Profile  -->
+    <string name="profile_button_photo">Take a photo</string>
+    <string name="profile_button_photo_browse">Browse for image</string>
+    <string name="profile_button_photo_save">Save</string>
+
+    <!--  Food Plan fragment  -->
+    <string name="title_foodplan">My Food Plan</string>
+    <string name="title_new_foodplan">New Food Plan</string>
+
+    <!--  food_plan_item  -->
+    <string name="food_plan_item_date">Date</string>
+    <string name="food_plan_item_title">Title</string>
+    <string name="food_plan_item_description">Description</string>
+    <string name="fragment_food_plan_add_new_food_plan">Add new food plan</string>
+    <string name="fragment_foodplan_new_food_plan">New Food Plan</string>
+    <string name="add_new_food_plan">Add new</string>
+    <string name="activity_new_food_plan_description">Plan Description</string>
+    <string name="activity_new_food_plan_name">Plan Name</string>
+</resources>

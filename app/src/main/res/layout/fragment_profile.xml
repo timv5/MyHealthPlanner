@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".ui.profile.ProfileFragment">
+
+    <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            tools:src="@tools:sample/avatars"
+            android:id="@+id/profile_image" />
+
+    <Button
+            android:id="@+id/profile_button_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_button_photo"/>
+
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/profile_button_photo_browse"-->
+<!--            android:onClick="onBrowseImage" />-->
+
+    <Button
+            android:id="@+id/profile_button_photo_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_button_photo_save" />
+
+</LinearLayout>
